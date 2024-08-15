@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secret Message Exercise
 **Full Name** - Secret Message Exercise.\
 **Development Environment** - Visual Studio 2022.\
@@ -24,3 +25,7 @@ When the characters are printed at the correct coordinates a secret Message will
 
 ## License
 See the [MIT)](LICENSE) license for rights and limitations under the conditions of the license.
+=======
+# Secret Message
+
+>>>>>>> ee63ff466aab7a61055d78e4ed45e4366fac668e
