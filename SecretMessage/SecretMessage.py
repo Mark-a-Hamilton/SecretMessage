@@ -54,12 +54,12 @@ def parseGoogleDocData(docData):
     return message
 
 #	Displays the Secret Message	from the Dictionary
-def printSecretMessage(messageArray):
+def printSecretMessage(message):
     # Determine the Message
-    maxX = max(coord[0] for coord in messageArray)
-    maxY = max(coord[1] for coord in messageArray)
+    maxX = max(coord[0] for coord in message)
+    maxY = max(coord[1] for coord in message)
     # Print the Secret Message
     for y in range(maxY+1):
-        print(''.join(messageArray.get((x, y), ' ') for x in range(maxX+1)))
+        print(''.join(message.get((x, y), ' ') for x in range(maxX+1)))
 
 showMessage('https://docs.google.com/document/d/e/2PACX-1vSHesOf9hv2sPOntssYrEdubmMQm8lwjfwv6NPjjmIRYs_FOYXtqrYgjh85jBUebK9swPXh_a5TJ5Kl/pub')
