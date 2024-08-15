@@ -40,6 +40,7 @@ def getData(URL):
     else:
         print(f"Error fetching document: {response.status_code}")
     
+    
     return docData
 
 #	The Dictionary is created & Populated
